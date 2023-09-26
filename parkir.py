@@ -2,7 +2,7 @@ import streamlit as st
 from babel.numbers import format_currency
 
 def format_rupiah(angka):
-    return format_currency(angka, 'IDR', locale='id_ID','rb')
+    return format_currency(angka, 'IDR', locale='id_ID')
 
 def tronton():
     st.title("PROGRAM PARKIR PANEL Tronton")
