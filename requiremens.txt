@@ -1,2 +1,6 @@
 babel
 streamlit
+numpy
+pandas
+pip
+scikit-learn
