@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas coy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Paragraf pertama dengan latar belakang kuning */
+        p.highlighted {
+            background-color: yellow;
+            color: black;
+            font-size: 30px;
+            padding: 10px;
+            margin: 0;
+            width: fit-content;
+        }
+
+        /* Paragraf kedua dengan latar belakang merah */
+        p.red {
+            background-color: red;
+            color: black;
+            font-size: 30px;
+            padding: 10px;
+            margin: 0;
+            width: fit-content;
+            margin-top: 20px;
+        }
+
+        /* Efek drop cap untuk huruf pertama di paragraf pertama */
+        p.highlighted::first-letter {
+            font-size: 65px;
+            font-weight: bold;
+            line-height: 1;
+            float: left;
+            margin-right: 8px;
+        }
+
+        /* Gaya teks tebal untuk kata-kata penting */
+        p strong {
+            font-weight: bold;
+            font-size: 38px;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlighted">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat facere magnam sint? <a style="font-size: larger;">Excepturi </a>minus nesciunt quo distinctio blanditiis facilis sequi illum suscipit in ratione, recusandae, <strong>magnam</strong> aliquid earum nulla aspernatur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, ipsa, ipsam pariatur hic aut, inventore voluptatem fugit assumenda quam adipisci nesciunt ex repellat. Iusto numquam magni labore, repellendus sed odio?.
+    </p>
+    <p class="red" style="text-indent: 50px; text-align-last: center; text-align: justify;">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat facere magnam sint? Excepturi minus nesciunt quo distinctio blanditiis facilis sequi illum suscipit in ratione,recusasdsd, magnam aliquid earum nulla aspernatur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum ipsam vero explicabo aut, sit, ut, amet ipsa dolore odit maxime rem? Amet veritatis iure distinctio non delectus! Deleniti, ratione et..
+    </p>
+</body>
+</html>
